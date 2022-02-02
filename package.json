@@ -6,6 +6,7 @@
   "license": "MIT",
 
   "scripts": {
-    "start": "(cd mui && yarn start) & (cd bootstrap && PORT=3001 yarn start) & (cd tailwind && PORT=3002 yarn start) & (cd vanilla && PORT=3003 yarn start)"
+    "start": "(cd mui && yarn start) & (cd bootstrap && PORT=3001 yarn start) & (cd tailwind && PORT=3002 yarn start) & (cd vanilla && PORT=3003 yarn start)",
+    "install": "(cd mui && yarn) & (cd bootstrap && yarn) & (cd tailwind && yarn) & (cd vanilla && yarn)"
   }
 }
