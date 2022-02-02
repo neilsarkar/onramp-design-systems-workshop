@@ -1,0 +1,11 @@
+{
+  "name": "onramp-design-systems-workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Neil Sarkar",
+  "license": "MIT",
+
+  "scripts": {
+    "start": "(cd mui && yarn start) & (cd bootstrap && PORT=3001 yarn start) & (cd tailwind && PORT=3002 yarn start) & (cd vanilla && PORT=3003 yarn start)"
+  }
+}
