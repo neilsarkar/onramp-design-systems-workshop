@@ -2,7 +2,10 @@
 
 A brief tour of some popular design systems.
 
+Requirements: Node v16.7.0
+
 ```bash
+yarn
 yarn start
 ```
 
